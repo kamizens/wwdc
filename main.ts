@@ -1,3 +1,6 @@
+controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
+    controller.moveSprite(mySprite, 100, 100)
+})
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     mySprite = sprites.create(img`
         . . . . . . 5 . 5 . . . . . . . 
